@@ -4,7 +4,7 @@ Made as I'm too lazy to keep doing maths every time I want to find out how much 
 Hopefully this project won't fall foul of [XKCD 1319](https://xkcd.com/1319/).
 
 ## Where is it?
-Here: 
+Here: https://nectar.calamityjames.dev/
 
 ## What does it do?
 Calculates how much "real" money you have tied up in Nectar points, and (optionally) Avios and American Express Membership Rewards
