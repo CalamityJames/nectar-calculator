@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nectar Converter</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <meta name="theme-color" content="#7952b3">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/nectar.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="col-lg-8 mx-auto p-3">
+    <header class="d-flex align-items-center pb-2 mb-2 border-bottom">
+        <h2>Nectar Converter</h2>
+    </header>
+
+    <main>
+        <p>Made because there was no easy way to visualise your potential Nectar earnings.</p>
+        <p>Any suggestions, <a href="https://github.com/CalamityJames/nectar-calculator">post to GitHub</a>.</p>
+        <p>No data is sent to my server, this is all processed in your browser. Feel free to view the source code to be sure.</p>
+        <hr>
+        <div id="alert" class="alert alert-danger d-none">
+        </div>
+        <div class="row mt-2">
+            <div class="col-12 col-md-6">
+                <h4>Nectar Points</h4>
+                <input type="text" name="" id="nectarPoints" class="form-control points" placeholder="0">
+
+                <h4>Avios</h4>
+                <input type="text" name="" id="aviosPoints" class="form-control points" placeholder="0">
+                <em class="text-muted">Enter the number of Avios you are intending to convert to Nectar.</em>
+
+                <h4>Amex Membership Rewards</h4>
+                <input type="text" name="" id="amexPoints" class="form-control points" placeholder="0">
+                <em class="text-muted">Assumed rate of 1 MR = 1 Avio then converted to Nectar.</em>
+
+                <button type="button" class="mt-2 btn btn-lg btn-success"  id="convert">Convert</button>
+
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <h4>Result</h4>
+                <p>You will have</p>
+                <h1>&pound;<span id="result">0.00</span></h1>
+                <p>To spend at ebay / Argos / Sainsbury's</p>
+
+            </div>
+        </div>
+
+    </main>
+    <footer class="pt-5 my-5 text-muted border-top">
+        &copy; 2022 James Harland
+    </footer>
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+<script src="js/nectar.js"></script>
+
+</body>
+</html>
